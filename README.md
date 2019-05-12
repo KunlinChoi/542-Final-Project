@@ -9,6 +9,7 @@ enviroment needed:
  
  
 There are 3 folders:
+
 1: keras-lstm: the baseline model, have problem due to gradient vanishing
         can be use when we have an input file, but the outcome can be bad when the text is not good
         need to change the input text directory in the getvector.py file
