@@ -27,11 +27,14 @@ There are 3 folders:
         
 3: bert-lstmcnn:
         the bert-lstm-cnn approach:
-        we use the smalldata.csv to generate our sentence vector since the bert vectors are way too large(more than 100g)
-        however, the sentence vector of smalldata dataset is still larger than 10g, so we can not upload it here.
+        We use the smalldata.csv to generate our sentence vector since the bert vectors are way too large(more than 100g)
+        However, the sentence vector of smalldata dataset is still larger than 10g, so we can not upload it here.
+        We run this model on the scc server.
         We can run getvector_bert to transform the input sentences into bert vectors(sentence embedding)
         and use readvector to read it.
         in the end, we can run the model by using the command: 
               
               python bert-lstmcnn.py
+              
+       
         
