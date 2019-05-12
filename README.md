@@ -33,5 +33,5 @@ There are 3 folders:
         and use readvector to read it.
         in the end, we can run the model by using the command: 
               
-              python:bert-lstmcnn.py
+              python bert-lstmcnn.py
         
